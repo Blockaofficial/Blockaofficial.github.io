@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockia Shopping - 404</title>
+    <link rel="icon" type="image/x-icon" href="xtra/Blockia - Shopping Icon2.png">
+    <link rel="icon" type="image/x-icon" href="xtra/Blockia - Shopping Icon2.png">
+
+</head>
+<body>
+    <hr class="top">
+
+    <Center>
+
+        <h3 class="titleblockia">Blockia Shopping - 404 Not Found</h3>
+        <hr class="hr-top-lgo">
+        <div class="loader">
+            <img id="image" class="blockiaimg" src="shopimages/Blockia - Maintance image.png">
+        </div>  
+        <p>The page you requested was not found.</p>
+        <small><p>404 | Page Not Found</p></small>
+        <br>
+        <hr class="btnhr">
+        <div>
+            <br>
+            <a href="index.html"><button>Back home</button></a>
+            </div>
+
+
+    <script src="loadr.js"></script>
+    <script src="shop.js"></script>
+    <link rel="stylesheet" href="shop.css">
+    <link rel="icon" type="image/x-icon" href="shopimages/Blockia - Shopping Icon2.png">
+
+
+</Center>
+
+<script type="text/javascript">
+    (function(){
+    var ImageId = document.getElementById("image");
+        if (ImageId.addEventListener) {
+            ImageId.addEventListener('contextmenu', function(e) {
+                e.preventDefault();
+            }, false);
+        } else {
+            ImageId.attachEvent('oncontextmenu', function() {
+                window.event.returnValue = false;
+            });
+        }
+    })()
+    </script>
+
+
+
+<center>
+    <hr class="bottomn">
+</center>
+</body>
+</html>
+
+
+<style>
+
+    .bottomn {
+        position:absolute;
+    bottom:0px;
+    width:99%;
+    }
+.top {
+    width:99%;
+    position:absolute;
+    top:0px;
+    }
+
+.btnhr {
+    max-width:90px;
+}
+.blockiaimg {
+    max-width:250px;
+    max-height:250px;
+    border-radius:5px;
+}
+</style>

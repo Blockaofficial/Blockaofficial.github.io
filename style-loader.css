@@ -1,0 +1,39 @@
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0,185,255);
+background: -moz-radial-gradient(circle, rgba(0,185,255,0.2189250700280112) 35%, rgba(0,224,255,0.5942752100840336) 100%);
+background: -webkit-radial-gradient(circle, rgba(0,185,255,0.2189250700280112) 35%, rgba(0,224,255,0.5942752100840336) 100%);
+background: radial-gradient(circle, rgba(0,185,255,0.2189250700280112) 35%, rgba(0,224,255,0.5942752100840336) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00b9ff",endColorstr="#00e0ff",GradientType=1);
+
+  }
+  
+
+  
+  .loader::after {
+    content: "||||||||||||||";
+    color:rgba(255, 255, 255, 0.103);
+    width: 75px;
+    height: 75px;
+    border: 15px solid #ffffffcc;
+    border-top-color: rgb(0, 174, 255);
+    display:block;
+    border-radius: 50%;
+    animation: loading 1.2s ease-in-out infinite;
+  }
+  
+  @keyframes loading {
+    from {
+      transform: rotate(0turn);
+    }
+    to {
+      transform: rotate(1turn);
+    }
+  }
